@@ -4,8 +4,8 @@ fizzbuzz val
     | val `mod` a == 0       = a_out
     | val `mod` b == 0       = b_out
     | otherwise              = show val
-    where a = 3
-          b = 5
+    where a = 5
+          b = 7
           a_out = "fizz"
           b_out = "buzz"
 
