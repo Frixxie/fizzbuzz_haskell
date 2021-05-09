@@ -4,10 +4,10 @@ fizzbuzz val
     | val `mod` a == 0       = a_out
     | val `mod` b == 0       = b_out
     | otherwise              = show val
-    where a = 5
-          b = 7
+    where a = 3
+          b = 5
           a_out = "fizz"
           b_out = "buzz"
 
 main = do
-    mapM (putStrLn . fizzbuzz) [1..2^7]
+    mapM (putStrLn . fizzbuzz) [1..2^8]
